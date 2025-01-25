@@ -1,6 +1,6 @@
 context:
   name: television
-  version: "0.9.4"
+  version: "0.10.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/alexpasmantier/television/archive/refs/tags/${{ version }}.tar.gz
-  sha256: adf8bbf49b6bde407d9f50fec4267c706a328594657b1615f6f383379dee85d6
+  sha256: 62dbc15b4109be90ef7bda6993523223aa6f89f39333ea8d35d515edc4ccb98d
 
 build:
   number: 0
